@@ -17,5 +17,12 @@
         "psr-4": {
             "Shahnewaz\\TextHelper\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shahnewaz\\TextHelper\\Providers\\TextHelperServiceProvider"
+            ]
+        }
+    },
 }
