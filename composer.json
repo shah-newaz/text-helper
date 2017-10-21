@@ -1,0 +1,19 @@
+{
+    "name": "shah-newaz/text-helper",
+    "description": "Text helper for Laravel 5.5",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shahnewaz Rifat",
+            "email": "rifat_rifats@live.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shahnewaz\\TextHelper": "src/"
+        }
+    },
+
+}
