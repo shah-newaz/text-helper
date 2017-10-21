@@ -9,7 +9,10 @@
             "email": "rifat_rifats@live.com"
         }
     ],
-    "require": {},
+    "require": {
+        "laravel/framework": "5.5.*",
+        "php": ">=7.1.0"
+    },
     "autoload": {
         "psr-4": {
             "Shahnewaz\\TextHelper": "src/"
