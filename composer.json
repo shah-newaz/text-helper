@@ -22,7 +22,10 @@
         "laravel": {
             "providers": [
                 "Shahnewaz\\TextHelper\\Providers\\TextHelperServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "TextMutator": "Shahnewaz\\TextHelper\\Facades\\TextMutator"
+            }
         }
     }
 }

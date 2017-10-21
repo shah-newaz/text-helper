@@ -16,4 +16,8 @@ class TextHelperServiceProvider extends ServiceProvider {
             return new TextService;
         });
 	}
+
+	public function provides () {
+		return ['texthelper'];
+	}
 }
